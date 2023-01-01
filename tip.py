@@ -1,7 +1,7 @@
 from twilio.rest import Client
 
 
-def send_message(messages, receive_number='+8618860824216'):
+def send_message(messages, receive_number='+86xxxxx'):
     """
     | *信息内容* | *接收信息号码* |
     | 自动发送 | +86171XXXX1121 |
@@ -10,8 +10,8 @@ def send_message(messages, receive_number='+8618860824216'):
     网址:https://www.twilio.com/console/phone-numbers/verified
     """
     phone_number = '+18586486603'  # 步骤6由网站分配的
-    account_sid = "AC574de83b451a11c5c9e25e163dd0adeb"
-    auth_token = "f6e2f9a0debb729f16f8f1170e7f874f"
+    account_sid = account_sid
+    auth_token = auth_token
 
     def beging_sending_message(msg, target_number):
         try:
